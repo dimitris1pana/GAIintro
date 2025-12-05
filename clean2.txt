@@ -1,0 +1,88 @@
+
+Specific knowledge about a theme
+CLAUDE sonnet 4.5 
+These sentences are not particularly similar in traditional semantic terms, but they might appear somewhat related in certain embedding spaces due to:
+
+Shared conceptual domain: Both involve technology/computers (laptop, computer)
+Potential causal relationship: A cat sitting on a laptop could cause it to overheat
+Domestic/everyday context: Both describe common household situations
+However, they differ significantly in:
+
+Semantic content: One is about a cat's location, the other about a technical problem
+Grammatical structure: Different subjects, verbs, and objects
+Direct meaning: No word overlap except the laptop/computer relationship
+In transformer-based language models, these might show moderate similarity because the model has learned associations between "cat on laptop" scenarios and "overheating" from training data, where such situations co-occur. The semantic similarity would likely be in the 0.3-0.6 range (on a 0-1 scale) - related but distinct concepts.
+
+If you're seeing high similarity scores between these in a specific model, it could indicate:
+
+The model learned correlations from internet content (memes, articles about cats and laptops)
+The embedding space clusters "computer problems" scenarios together
+Context window or attention patterns linking pet behavior to device issues
+
+
+GPT4o
+These sentences are similar for the following reasons:
+
+Shared Conceptual Domain: Both sentences involve technology and computers. The first mentions a "laptop," and the second refers to a "computer," which are closely related.
+
+Potential Causal Relationship: There is an implied connection between the two scenarios. A cat sitting on a laptop could cause it to overheat, creating a logical link between the two sentences.
+
+Everyday Context: Both describe common, relatable situations that could occur in a domestic setting, making them conceptually linked in a broader sense.
+
+However, they differ in:
+
+Semantic Content: The first sentence describes the location of a cat, while the second describes a technical issue. The direct meanings are distinct.
+
+Grammatical Structure: The sentences have different subjects, verbs, and objects, making their structures dissimilar.
+
+Direct Word Overlap: There is no direct word overlap except for the conceptual relationship between "laptop" and "computer."
+
+In transformer-based language models, these sentences might show moderate similarity because the model has learned associations between scenarios like "cat on laptop" and "overheating" from training data. This similarity arises from the model's ability to capture contextual and conceptual relationships, even when the sentences differ in direct meaning and structure.
+
+
+Generic knowledge about a word
+GPT4o
+
+If you say "BANK," the AI considers multiple possible meanings based on context, as "BANK" is a polysemous word (it has multiple meanings). Here are some common interpretations:
+
+Financial Institution: A place where money is deposited, withdrawn, or managed (e.g., "I went to the bank to deposit money").
+
+Riverbank: The side of a river or stream (e.g., "The boat was tied to the riverbank").
+
+Action: To tilt or incline, often used in aviation or cycling (e.g., "The plane banked to the left").
+
+Trust or Reliance: To depend on something (e.g., "You can bank on me").
+
+Storage: A collection or reserve of something (e.g., "A blood bank" or "A data bank").
+
+The AI determines the intended meaning based on the surrounding context, such as the words, phrases, or sentences accompanying "BANK." Without context, it considers all these possibilities.
+
+
+
+
+Gemini 2.5
+When you say "BANK," an AI considers multiple possible meanings because the word is polysemous (has multiple meanings). The specific meaning is determined by the context in which you use the word.
+
+Here are the common meanings an AI would consider:
+
+Financial Institution: A business that provides financial services,
+such as holding deposits and lending money.
+* Example: "I need to go to the bank to deposit a check."
+
+Riverbank: The land alongside a river or lake.
+
+Example: "We had a picnic on the bank of the river."
+A supply or storage: A place where things are held in reserve.
+
+Example: "She donated to the local blood bank."
+To rely on or trust: To count on something or someone.
+
+Example: "You can bank on me to be there."
+To tilt or incline: The action of a vehicle tilting when turning.
+
+Example: "The airplane had to bank sharply to the left."
+A row or tier of similar things: A group of objects arranged in a line.
+
+Example: "A bank of elevators."
+Without any surrounding words or sentences, an AI cannot know which meaning you intend. Context is crucial for the AI to understand your meaning correctly.
+
