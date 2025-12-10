@@ -318,14 +318,6 @@ This is educational material for the University of Piraeus. Students are encoura
 ## 📝 License & Citation
 
 **Educational Use:** These materials are provided for educational purposes as part of the University of Piraeus curriculum.
-
-**Citation:** If you use these materials, please cite:
-```
-Introduction to Generative AI Course Materials
-University of Piraeus, 2025
-Repository: GAIintro
-```
-
 ---
 
 ## 👨‍🏫 Course Information
