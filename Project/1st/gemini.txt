@@ -1,0 +1,82 @@
+This research paper, titled "A novel framework for artificial intelligence explainability via the Technology Acceptance Model and Rapid Estimate of Adult Literacy in Medicine using machine learning," proposes **PINXEL** (Personalised INterface for eXplainability based on Levels).
+
+Below is a summary of the document's main objectives, methodology, and results:
+
+### **Objectives**
+
+The primary goal of the research is to create a systemic approach for defining explainability in AI-empowered systems, particularly within the medical domain. Specific objectives include:
+
+* 
+**Assessing and quantifying user ability**: Specifically targeting doctors' familiarization with technology and AI literacy.
+
+
+* 
+**Generating personalized explainability**: Creating layers of explanation tailored to a user's specific needs and literacy level to ensure trustworthiness.
+
+
+* 
+**Improving validation and transparency**: Providing a robust environment that allows stakeholders to understand and validate AI decisions.
+
+
+
+### **Methodology**
+
+The authors developed the **PINXEL** framework by merging machine learning with established human behavior and innovation theories.
+
+* 
+**Theoretical Foundations**: The framework is heavily based on the **Technology Acceptance Model (TAM)**, which posits that "perceived usefulness" and "perceived ease of use" are primary drivers of technology adoption.
+
+
+* **Personalization Engine**:
+* 
+**AI Literacy (Perceived Usefulness)**: PINXEL categorizes users into three literacy levels: **Basic**, **Average**, and **Expert**.
+
+
+* 
+**Abstraction (Perceived Ease of Use)**: It also defines three levels of explanation abstraction: **High**, **Medium**, and **Low**.
+
+
+
+
+* 
+**Machine Learning Integration**: The framework uses targeted ML techniques, such as **hierarchical clustering** and **k-means**, to process user data (gathered via questionnaires) and assign users to specific "explainability clusters".
+
+
+* 
+**Rule-Based System**: A rule-based engine then determines the appropriate "depth" of explainability for each user cluster by associating their TAM-defined levels (e.g., IF Basic Literacy AND High Abstraction THEN Explainability Depth 3).
+
+
+* 
+**Test-Bed**: The framework was tested using **NuhealthSoft**, an existing AI-empowered medical application that analyzes blood biometrics to predict health states.
+
+
+
+### **Results and Findings**
+
+* 
+**Survey Outcomes**: A survey of 40 medical professionals revealed that while doctors are inclined toward safety and clinical trials for new tech (high score for safety), many have not yet used medical devices with implemented automation.
+
+
+* 
+**User Modeling**: Through hierarchical clustering, the researchers identified distinct groups among the survey participants, leading to two identifiable levels of AI literacy (Average and Expert) and one level of required abstraction (Medium) for that specific group.
+
+
+* **Implementation**: The framework successfully integrated personalized explainability features into NuhealthSoft, including:
+* 
+**Semantic Grouping**: Visualizing relationships between blood variables (like chloride) and organ functions (like kidneys).
+
+
+* 
+**Global XAI**: Providing high-level overviews of model classifications.
+
+
+* 
+**AI Chatbots**: Offering personalized interfaces with predefined prompts tailored to the user's literacy level.
+
+
+
+
+
+### **Conclusion**
+
+The researchers conclude that PINXEL provides a robust foundation for delivering personalized, trustworthy, and transparent AI systems. By tailoring the complexity and abstraction of explanations to individual users, the framework can facilitate better validation and adoption of AI in sensitive fields like medicine. Future work will focus on rigorous **A-B testing** to compare adoption rates between systems with and without PINXEL-driven explainability.

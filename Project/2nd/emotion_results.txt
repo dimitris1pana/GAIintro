@@ -1,0 +1,13 @@
+MODEL: j-hartmann/emotion-english-distilroberta-base
+PDF: eswa.pdf
+Chunks: 5 (max_tokens=480, overlap=80)
+
+Per-chunk top emotion:
+Chunk   1: neutral         score=0.8931
+Chunk   2: neutral         score=0.9491
+Chunk   3: neutral         score=0.9136
+Chunk   4: neutral         score=0.8448
+Chunk   5: neutral         score=0.9290
+
+Counts:
+neutral: 5

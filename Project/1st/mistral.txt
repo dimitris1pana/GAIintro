@@ -1,0 +1,80 @@
+Here’s a concise and structured summary of the document **"A novel framework for artificial intelligence explainability via the Technology Acceptance Model and Rapid Estimate of Adult Literacy in Medicine using machine learning"** by Dimitrios P. Panagoulias, Maria Virvou, and George A. Tsihrintzis:
+
+---
+
+### **Key Concepts and Objectives**
+- **Purpose**: The paper introduces **PINXEL** (Personalised INterface for eXplainability basEd on Levels), a framework designed to enhance the **explainability** and **transparency** of AI-empowered systems, particularly in **medical applications**.
+- **Focus**: It addresses the need for **personalized explainability** based on users' **AI literacy** and **level of abstraction**, leveraging the **Technology Acceptance Model (TAM)** and **Rapid Estimate of Adult Literacy in Medicine (REALM)**.
+
+---
+
+### **Theoretical Foundations**
+1. **Technology Acceptance Model (TAM)**:
+   - **Perceived Usefulness**: Users' belief that the technology will enhance their performance.
+   - **Perceived Ease of Use**: Users' belief that the technology is easy to use.
+   - TAM is used to assess how users accept AI systems, focusing on **usability** and **usefulness**.
+
+2. **Explainable AI (XAI)**:
+   - AI systems must be **transparent** and **interpretable**, especially in sensitive domains like healthcare.
+   - **Global XAI**: Explains the overall behavior of the model.
+   - **Local XAI**: Explains specific predictions or decisions.
+
+3. **AI Literacy Levels**:
+   - **Basic**: General understanding of AI concepts (e.g., machine learning, neural networks).
+   - **Average**: Detailed knowledge of algorithms, model architecture, and performance metrics.
+   - **Expert**: In-depth understanding of model internals, including global/local XAI techniques (e.g., SHAP, LIME, PDP).
+
+4. **Levels of Abstraction**:
+   - **High**: Simplified explanations using natural language processing (NLP).
+   - **Medium**: Technical explanations with domain-specific details.
+   - **Low**: Detailed graphical representations, tables, and raw data.
+
+---
+
+### **PINXEL Framework**
+- **Personalization**: Uses **clustering techniques** (e.g., k-means, hierarchical clustering) to group users based on their **AI literacy** and **abstraction needs**.
+- **Rule-Based System**: Associates TAM variables (usefulness, ease of use) with AI literacy and abstraction levels to determine the **depth of explainability**.
+- **Explainability Depth**:
+  - **Basic AI Literacy + High Abstraction**: Depth = 1 (simplest explanations).
+  - **Expert AI Literacy + Low Abstraction**: Depth = 9 (most detailed explanations).
+
+---
+
+### **Implementation in NuhealthSoft**
+- **Test-Bed**: The framework is applied to **NuhealthSoft**, an AI-empowered medical application that analyzes health data (e.g., blood exams) to classify health states (e.g., metabolic syndrome, blood pressure).
+- **Use Cases**:
+  - **Basic AI Literacy + Low Abstraction**: Semantic grouping of medical variables (e.g., chloride levels and organ functions).
+  - **Expert AI Literacy + Low Abstraction**: SHAP values, feature importance plots, and model deconstruction (e.g., layers, weights, biases).
+  - **Low AI Literacy + High Abstraction**: Chatbot with pre-defined prompts for simplified explanations.
+
+---
+
+### **Methodology**
+1. **Survey Analysis**:
+   - Conducted among **40 medical professionals** to assess AI literacy, perceived usefulness, and ease of use.
+   - **Clustering**: Hierarchical clustering identified groups with similar responses, guiding the personalization of explainability layers.
+
+2. **Integration with NuhealthSoft**:
+   - **Layers**:
+     - **Database Controllers**: Business logic and ML algorithms.
+     - **Structural Semantics**: Inputs, outputs, and stakeholders.
+     - **User Interfaces**: Tailored to AI literacy and abstraction levels.
+
+---
+
+### **Results and Future Work**
+- **Findings**:
+  - Users with **higher AI literacy** prefer **detailed, technical explanations**.
+  - Users with **lower AI literacy** benefit from **simplified, high-abstraction explanations**.
+  - The framework improves **trust** and **adoption** of AI systems in healthcare.
+
+- **Future Directions**:
+  - **A/B Testing**: Compare AI systems with and without PINXEL to measure adoption and satisfaction.
+  - **Patient-Centric Evaluation**: Extend PINXEL to assess patient needs.
+  - **Data Privacy**: Explore federated learning and blockchain for secure data handling.
+  - **Decentralized Systems**: Improve scalability and maintenance efficiency.
+
+---
+
+### **Conclusion**
+PINXEL provides a **systematic, user-centric approach** to AI explainability, ensuring that explanations are **personalized, transparent, and aligned with users' literacy and needs**. By integrating TAM and REALM, the framework bridges the gap between AI complexity and user comprehension, fostering **trust and adoption** in AI-empowered systems, especially in **medical applications**.
